@@ -1,6 +1,6 @@
 # SEO Master Skill
 
-> Version 3.1 | Last Updated: January 2026
+> Version 3.2 | Last Updated: January 2026
 
 A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies.
 
@@ -883,23 +883,6 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 
 **Tools:** Ahrefs, Semrush, or free: Ubersuggest, SimilarWeb
 
-### Content Refresh Schedule
-
-| Content Type | Frequency |
-|--------------|-----------|
-| High-priority AI visibility | Every 2-3 days |
-| Fast-moving topics (tech, SEO, news) | Every 3-6 months |
-| Evergreen content | Every 6-12 months |
-| Declining traffic pages | Immediately when noticed |
-
-**What to Update:**
-- Add latest statistics
-- Update recommendations
-- Add new FAQ questions
-- Improve internal links
-- Add new examples
-- Update title/meta for CTR
-
 ### Title Tag Formula
 
 ```
@@ -1716,6 +1699,743 @@ Phase 5: MONITORING (Weekly)
 
 ---
 
+### Content Excellence: The Craft of SEO Writing
+
+**The difference between content that ranks and content that dominates** is execution quality. This section covers the writing craft that separates mediocre from exceptional.
+
+#### Writing Compelling Openings
+
+**The first 100 words determine everything.** Users decide in 3-5 seconds whether to stay or bounce. Google measures this.
+
+**The Hook Formula:**
+
+| Hook Type | Pattern | Example |
+|-----------|---------|---------|
+| **Problem Agitation** | State the pain point they feel | "You've published 50 blog posts. Traffic? Still flat." |
+| **Surprising Stat** | Lead with unexpected data | "73% of pages get zero traffic from Google. Here's how to be in the 27%." |
+| **Contrarian** | Challenge common belief | "Keyword research is overrated. Here's what actually matters." |
+| **Promise** | Clear outcome statement | "By the end of this guide, you'll have a complete SEO audit checklist you can use today." |
+| **Question** | Engage their curiosity | "What if everything you knew about meta descriptions was wrong?" |
+| **Story** | Relatable scenario | "Last month, a client's traffic dropped 60% overnight. Here's what we found." |
+
+**Opening Structure (First 3 Paragraphs):**
+
+```
+Paragraph 1: HOOK
+├── Grab attention (1-2 sentences)
+├── Establish relevance to their problem
+└── Create curiosity to continue
+
+Paragraph 2: EMPATHY + CREDIBILITY
+├── Show you understand their situation
+├── Brief credibility signal (experience, data)
+└── Transition to the solution
+
+Paragraph 3: PROMISE + ROADMAP
+├── What they'll learn/achieve
+├── Why this approach works
+└── What's coming (optional preview)
+```
+
+**Examples of Strong vs Weak Openings:**
+
+**Weak:** "SEO is important for your website. In this article, we'll discuss various SEO techniques that can help improve your rankings."
+
+**Strong:** "Your competitors are stealing your traffic. Not through anything shady—they just understand something you don't: the 80/20 of SEO in 2026. After auditing 200+ sites this year, I've found that 80% of SEO problems come from the same 5 mistakes. Fix these, and you'll outrank sites with 10x your budget."
+
+**Opening Checklist:**
+- [ ] Hook in first sentence
+- [ ] Problem/benefit clear by end of first paragraph
+- [ ] Credibility signal within first 3 paragraphs
+- [ ] Promise of value explicit
+- [ ] No fluff or generic statements
+- [ ] Answers "why should I keep reading?"
+
+#### Maintaining Reader Interest (Flow)
+
+**The Middle Problem:** Most content loses readers in the middle. Great content uses deliberate techniques to maintain momentum.
+
+**The Pattern Interrupt Principle:**
+Every 200-300 words, change something:
+- Format shift (prose → list → table → image)
+- Tone shift (serious → conversational → practical)
+- Depth shift (overview → detail → example)
+
+**Flow Techniques:**
+
+**1. Bucket Brigades**
+Short transitional phrases that create micro-commitments:
+- "Here's the thing:"
+- "But here's where it gets interesting:"
+- "Now, pay attention to this part:"
+- "Let me explain:"
+- "Think about it this way:"
+- "Here's what most people miss:"
+
+**2. The Curiosity Gap**
+Tease upcoming content to encourage scrolling:
+- "In the next section, I'll show you exactly how..."
+- "But first, you need to understand..."
+- "The real secret? We'll get to that in a moment."
+
+**3. The APP Method (Agree, Promise, Preview)**
+For transitioning between sections:
+- **Agree**: Acknowledge where they are
+- **Promise**: What this section will deliver
+- **Preview**: Quick hint of what's coming
+
+**4. Mini-Stories Throughout**
+Brief anecdotes that illustrate points:
+```
+"A client came to us last year with a 'comprehensive' SEO strategy.
+47 pages. 200 action items. Impressive, right?
+
+Six months later: zero improvement.
+
+The problem? They tried to do everything. Here's what actually
+moved the needle..."
+```
+
+**5. Strategic Questions**
+Rhetorical questions that re-engage:
+- "So what does this mean for your site?"
+- "Sound familiar?"
+- "Why does this matter?"
+
+**Content Pacing:**
+
+| Section Type | Ideal Length | Format |
+|--------------|--------------|--------|
+| Introduction | 100-200 words | Prose with hook |
+| Main sections | 300-500 words | Mixed format |
+| Deep-dive subsections | 200-400 words | Lists, examples |
+| Transitions | 1-2 sentences | Bucket brigades |
+| Conclusion | 100-200 words | Summary + CTA |
+
+**Flow Checklist:**
+- [ ] Pattern interrupt every 200-300 words
+- [ ] Bucket brigades at key transition points
+- [ ] Each section starts with value, not setup
+- [ ] Mix of formats throughout (lists, tables, prose)
+- [ ] No section longer than 500 words without visual break
+- [ ] Subheadings tell a story when read sequentially
+
+#### Voice and Personality
+
+**Why Voice Matters:**
+- Builds trust and connection
+- Makes content memorable
+- Differentiates from AI-generic content
+- Increases time on page
+
+**Finding Your Voice:**
+
+| Voice Element | Questions to Define |
+|---------------|---------------------|
+| **Authority Level** | Expert peer, friendly guide, or approachable teacher? |
+| **Formality** | Academic, professional, conversational, or casual? |
+| **Humor** | Serious, dry wit, playful, or satirical? |
+| **Energy** | Calm and measured, or energetic and urgent? |
+| **Perspective** | Objective analyst or opinionated advocate? |
+
+**Voice Consistency Rules:**
+
+1. **Pick 3 Voice Traits**
+   - Example: "Expert but approachable, slightly irreverent, always actionable"
+   - Apply consistently across all content
+
+2. **Develop Signature Phrases**
+   - Phrases you use repeatedly that become recognizable
+   - Example: "Here's the thing:" or "The bottom line:"
+
+3. **Have Opinions**
+   - Wishy-washy content feels AI-generated
+   - Take positions: "Don't waste time on X. Do Y instead."
+
+4. **Use Contractions**
+   - "You're" not "You are"
+   - "Don't" not "Do not"
+   - Makes writing feel human
+
+5. **Address the Reader Directly**
+   - "You" and "your" throughout
+   - "Let's" for collaborative feeling
+   - Avoid third person ("one should...")
+
+**Voice Examples:**
+
+**Generic (No Voice):**
+"Meta descriptions are an important element of SEO. They should be between 150-160 characters and include the target keyword."
+
+**With Voice (Confident Teacher):**
+"Here's a secret most SEO guides won't tell you: meta descriptions don't directly affect rankings. At all. Google said so. But they absolutely affect clicks—and clicks affect rankings. So yes, optimize them. Here's exactly how..."
+
+**With Voice (Irreverent Expert):**
+"Meta descriptions. Ah yes, those 160 characters you obsess over that Google rewrites 70% of the time anyway. Still worth doing right? Absolutely. Because when Google DOES use yours, it better convert like crazy."
+
+**Voice Killers to Avoid:**
+- "It is important to note that..."
+- "In conclusion..."
+- "This article will discuss..."
+- "It should be mentioned that..."
+- "As previously stated..."
+- Passive voice (occasional is fine, constant is lifeless)
+
+#### Storytelling Techniques
+
+**Why Stories Work for SEO:**
+- Increase dwell time (people read stories start-to-finish)
+- Create emotional connection
+- Make information memorable (65% better recall)
+- Provide E-E-A-T through experience
+
+**Story Frameworks for Content:**
+
+**1. The Case Study Arc**
+```
+BEFORE: The problem/challenge (relatable pain)
+DURING: What was tried, what failed, the breakthrough
+AFTER: Results with specific numbers
+LESSON: What this means for the reader
+```
+
+**2. The "I Made This Mistake" Story**
+```
+MISTAKE: What you did wrong
+CONSEQUENCE: What happened
+DISCOVERY: How you learned better
+APPLICATION: How readers can avoid this
+```
+
+**3. The Client Story**
+```
+SITUATION: Client's starting point
+CHALLENGE: What was blocking them
+APPROACH: What you recommended
+RESULTS: Quantified outcomes
+```
+
+**4. The Industry Evolution**
+```
+THEN: How things used to work
+NOW: What changed
+NEXT: Where things are heading
+ACTION: What to do about it
+```
+
+**Micro-Stories (1-3 Sentences):**
+Use throughout content to illustrate points:
+
+"Last week, I audited a site that had perfect technical SEO. Flawless. But zero traffic. Why? Every page targeted the same keyword. Classic cannibalization."
+
+"A client told me their biggest competitor 'must be cheating.' We analyzed their strategy. No cheating—just 3x more content published at 2x the quality."
+
+**Story Placement:**
+- Opening: Hook story to establish relevance
+- Middle: Example stories to illustrate concepts
+- End: Success story to inspire action
+
+**Story Checklist:**
+- [ ] Specific details (names/numbers > vague descriptions)
+- [ ] Relatable starting point
+- [ ] Clear challenge or conflict
+- [ ] Resolution with lesson
+- [ ] Under 200 words for inline stories
+- [ ] Tied directly to actionable advice
+
+#### Transitions and Structure
+
+**Section Transitions:**
+
+Never end a section and start the next without connection:
+
+**Weak:**
+```
+...and that's how you optimize title tags.
+
+## Meta Descriptions
+
+Meta descriptions are...
+```
+
+**Strong:**
+```
+...and that's how you optimize title tags. But a great title means
+nothing if your meta description doesn't seal the deal.
+
+## Meta Descriptions: Converting Impressions to Clicks
+
+While title tags get you noticed, meta descriptions...
+```
+
+**Transition Phrases by Function:**
+
+| Function | Phrases |
+|----------|---------|
+| **Building on previous** | Building on this... / Taking this further... / With that foundation... |
+| **Contrasting** | However... / But here's the catch... / On the flip side... |
+| **Adding** | More importantly... / Adding to this... / Similarly... |
+| **Concluding** | The bottom line... / What this means... / So where does this leave us? |
+| **Exemplifying** | Consider this... / In practice... / Here's how this looks... |
+
+**Structural Clarity:**
+
+**The Inverted Pyramid (Per Section):**
+```
+┌─────────────────────┐
+│  KEY POINT FIRST    │  ← What they need to know
+├─────────────────────┤
+│  Supporting detail  │  ← Why/how
+├─────────────────────┤
+│  Examples/evidence  │  ← Proof
+├─────────────────────┤
+│  Edge cases/nuance  │  ← Advanced info
+└─────────────────────┘
+```
+
+**Header as Story:**
+Your H2s should tell a story when read in sequence:
+
+**Bad:**
+- SEO Overview
+- Important Factors
+- Tools
+- Conclusion
+
+**Good:**
+- Why Most SEO Strategies Fail
+- The 3 Factors That Actually Move Rankings
+- Tools That Find Hidden Opportunities
+- Your 30-Day Action Plan
+
+**Structural Checklist:**
+- [ ] Every section has clear transition from previous
+- [ ] Headers are descriptive and benefit-oriented
+- [ ] Most important information first in each section
+- [ ] Parallel structure in list items
+- [ ] No orphaned single-item lists
+- [ ] Conclusion references opening promise
+
+---
+
+### External Linking Strategy
+
+**The Counterintuitive Truth:** Linking OUT helps your SEO. Many sites avoid external links, thinking they "leak authority." The data says otherwise.
+
+#### Why External Links Help
+
+**1. Trust Signals**
+- Citing authoritative sources shows credibility
+- Google's quality rater guidelines reward well-researched content
+- AI search engines heavily favor content that cites sources
+
+**2. Semantic Context**
+- Links to relevant sites help Google understand your topic
+- Creates topical associations with authoritative domains
+- Strengthens entity relationships
+
+**3. User Value**
+- Provides readers additional resources
+- Increases perceived value
+- Can increase time in ecosystem (if opened in new tab)
+
+**The Data:**
+- Reboot Online study: Pages with external links ranked higher than those without
+- Higher external link count correlated with better rankings
+- AI search platforms cite sources—if you don't cite, you look less credible
+
+#### When to Link Out
+
+**Always Link For:**
+
+| Situation | Why |
+|-----------|-----|
+| **Statistics and data** | Verifiability is essential |
+| **Claims that need proof** | "Studies show..." must link to study |
+| **Definitions** | Link to authoritative definition |
+| **Tools mentioned** | Link to the tool |
+| **Further reading** | Genuinely helpful resources |
+| **Quotes or references** | Attribution required |
+
+**Consider Linking For:**
+- Industry standards or guidelines
+- News events referenced
+- Research papers cited
+- Expert opinions quoted
+- Product comparisons (link to products)
+
+**Don't Link For:**
+- Common knowledge ("the sky is blue")
+- Your own claims and opinions
+- Competitor content (unless genuinely best resource)
+- Low-quality or spammy sites
+
+#### What Sources to Cite
+
+**Authority Hierarchy:**
+
+| Tier | Source Types | Examples |
+|------|--------------|----------|
+| **Tier 1: Primary** | Official sources, peer-reviewed research | Google Blog, Harvard studies, Government data |
+| **Tier 2: Industry** | Recognized industry authorities | Moz, Ahrefs, HubSpot research |
+| **Tier 3: Credible Media** | Established publications | NYT, BBC, major industry publications |
+| **Tier 4: Quality Blogs** | Well-researched independent content | Top experts in the niche |
+| **Avoid** | Low-authority, spammy, or unreliable | Random blogs, thin content, old news |
+
+**Source Selection Checklist:**
+- [ ] Is this the original source? (Not a secondary reference)
+- [ ] Is this the most authoritative source available?
+- [ ] Is this source likely to stay online?
+- [ ] Would linking here help or hurt my credibility?
+- [ ] Is the source recent enough? (Context dependent)
+
+#### External Link Best Practices
+
+**1. Anchor Text**
+- Descriptive (not "click here")
+- Natural within sentence flow
+- Keyword when relevant but not forced
+
+**Good:** "According to [Google's Search Central documentation](link)..."
+**Bad:** "[Click here](link) to see what Google says."
+
+**2. Link Placement**
+- Contextual (within content flow)
+- First mention of a source typically
+- Not clustered all at end
+
+**3. Open in New Tab**
+- External links: Yes (keeps readers on your site)
+- Internal links: No (same site navigation)
+- Use `target="_blank" rel="noopener"`
+
+**4. Link Quantity**
+- 2-5 external links per 1,000 words is reasonable
+- Quality over quantity
+- Don't force links where unnecessary
+
+**5. NoFollow Considerations**
+- Sponsored content: Use `rel="sponsored"`
+- User-generated content: Use `rel="ugc"`
+- Untrusted sources: Use `rel="nofollow"`
+- Normal editorial links: No rel attribute needed
+
+**6. Link Maintenance**
+- Audit external links quarterly
+- Replace broken links
+- Update outdated sources
+- Remove links to penalized/degraded sites
+
+---
+
+### Multimedia Decision Framework
+
+**The Right Media for the Right Moment:** Not every article needs a video. Not every guide needs an infographic. This framework helps you decide what adds value versus what's just filler.
+
+#### When to Use Images
+
+**Always Use Images For:**
+
+| Content Type | Image Types |
+|--------------|-------------|
+| **How-to guides** | Screenshots, step-by-step visuals |
+| **Product content** | Product photos, comparison visuals |
+| **Data content** | Charts, graphs, data visualizations |
+| **Process explanations** | Flowcharts, diagrams |
+| **Location content** | Maps, place photos |
+
+**Skip Images When:**
+- Stock photos that add no information
+- Decorative images with no purpose
+- Images that repeat what text says
+- Low-quality images
+
+**Image Types by Purpose:**
+
+| Purpose | Best Image Type | Example |
+|---------|-----------------|---------|
+| **Explain a process** | Flowchart, diagram | User journey map |
+| **Show data** | Chart, graph | Traffic growth over time |
+| **Demonstrate steps** | Annotated screenshots | Where to click in a tool |
+| **Compare options** | Comparison table/visual | Feature comparison matrix |
+| **Show examples** | Real examples | Before/after of optimized page |
+| **Break up text** | Relevant illustration | Only if it adds context |
+
+**Image Quantity Guidelines:**
+- 1 image per 300-500 words for visual topics
+- 1 image per 500-1000 words for text-heavy topics
+- Minimum 1 image for any content (featured image)
+- Maximum: When they start feeling like filler
+
+#### When to Use Video
+
+**Video ROI Calculation:**
+
+| Factor | Question |
+|--------|----------|
+| **Complexity** | Does this require demonstration that text can't convey? |
+| **Duration** | Would video be 2+ minutes of substantial content? |
+| **Audience** | Does your audience consume video? |
+| **Hosting** | Do you have YouTube/Vimeo presence to leverage? |
+| **Resources** | Can you produce quality video efficiently? |
+
+**High-Value Video Opportunities:**
+
+| Content Type | Why Video Works |
+|--------------|-----------------|
+| **Software tutorials** | Screen recordings show exactly what to do |
+| **Physical demonstrations** | Products, techniques, processes |
+| **Expert interviews** | Builds E-E-A-T, face-to-face trust |
+| **Course content** | Complex learning benefits from video |
+| **Behind-the-scenes** | Humanizes brand, builds trust |
+
+**Low-Value Video Opportunities:**
+
+| Content Type | Why Video May Not Work |
+|--------------|------------------------|
+| **Reference content** | People scan, don't watch |
+| **Simple how-tos** | Faster to read than watch |
+| **Frequent updates** | Video is hard to update |
+| **International audience** | Text translates easier |
+
+**Video Integration Best Practices:**
+1. Embed video in relevant article (don't replace article)
+2. Add transcript below video (SEO + accessibility)
+3. Create video chapters/timestamps
+4. Link article and video together
+5. Track engagement on both
+
+#### When to Use Interactive Tools
+
+**Build a Tool When:**
+
+| Condition | Example |
+|-----------|---------|
+| **Calculators are needed** | ROI calculator, pricing estimator |
+| **Personalization adds value** | Quiz to recommend products |
+| **Data needs manipulation** | Converter, formatter, generator |
+| **Users return repeatedly** | Quick reference tools |
+| **Link building potential** | Unique tools get linked to |
+
+**Tool Complexity vs. Value:**
+
+```
+High Value │    ★ Advanced Calculator
+           │    ★ Interactive Audit
+           │    ★ Custom Generator
+           │
+           │  ★ Simple Calculator
+           │  ★ Conversion Tool
+           │  ★ Template Generator
+           │
+Low Value  │  ★ Basic Quiz
+           └────────────────────────────
+           Low Complexity    High Complexity
+```
+
+**Tool Types by Effort:**
+
+| Effort Level | Tool Types | Dev Time |
+|--------------|------------|----------|
+| **Low** | Simple calculator, unit converter | 1-2 hours |
+| **Medium** | Multi-step calculator, basic generator | 4-8 hours |
+| **High** | Interactive tool, API integration | 1-3 days |
+| **Very High** | Complex application, database needed | 1+ weeks |
+
+**Tool Integration:**
+- Embed on relevant content pages
+- Create dedicated tool page for SEO
+- Add schema markup (SoftwareApplication)
+- Include text content around tool for context
+- Make shareable (link with inputs preserved)
+
+#### Multimedia Decision Matrix
+
+**For Any Content Piece, Ask:**
+
+| Question | If Yes | If No |
+|----------|--------|-------|
+| Would a screenshot make this clearer? | Add annotated screenshot | Skip |
+| Is there data that would benefit from visualization? | Create chart/graph | Keep as text/table |
+| Is this a process with multiple steps? | Add flowchart or step images | Use numbered list |
+| Would a video demonstration add significant value? | Create video + embed | Skip or link to existing |
+| Is there a calculation users need to do? | Build simple tool | Provide formula in text |
+| Could an infographic summarize key points? | Create if shareable/linkable | Skip (often low ROI) |
+
+**Content Type → Default Media:**
+
+| Content Type | Default Media | Optional Additions |
+|--------------|---------------|-------------------|
+| How-to guide | Screenshots | Video demo |
+| List article | Minimal images | Comparison tables |
+| Data/research | Charts, graphs | Infographic |
+| Product review | Product images | Video review |
+| Tutorial | Step screenshots | Video walkthrough |
+| Opinion/thought leadership | Minimal | Author photo |
+| Case study | Before/after visuals | Results charts |
+| Comparison | Comparison table | Feature matrix image |
+
+---
+
+### Content Briefs & Planning
+
+**Why Briefs Matter:** Random writing produces random results. A solid brief before writing leads to faster production and better SEO outcomes.
+
+#### The Content Brief Template
+
+```markdown
+# Content Brief: [Working Title]
+
+## Target Keyword
+- Primary: [main keyword]
+- Secondary: [2-3 related keywords]
+- Questions to answer: [from People Also Ask]
+
+## Search Intent
+- Intent type: [Informational / Commercial / Transactional]
+- What searcher wants: [Specific outcome]
+- Where they are in journey: [Awareness / Consideration / Decision]
+
+## Competitor Analysis
+- Top 3 ranking pages:
+  1. [URL] - Word count: X, Strengths: Y, Gaps: Z
+  2. [URL] - Word count: X, Strengths: Y, Gaps: Z
+  3. [URL] - Word count: X, Strengths: Y, Gaps: Z
+- Content gap opportunities: [What they don't cover]
+- Differentiation angle: [How we'll be better]
+
+## Content Specifications
+- Target word count: [X-Y words]
+- Content format: [Listicle / Guide / How-to / Comparison]
+- Tone: [Professional / Casual / Expert / Friendly]
+- Reading level: [Grade level or description]
+
+## Structure Outline
+- H1: [Title]
+  - H2: [Section 1]
+    - H3: [Subsection]
+  - H2: [Section 2]
+  - H2: [FAQ Section]
+
+## Required Elements
+- [ ] TL;DR / Summary at top
+- [ ] FAQ section (X questions)
+- [ ] Statistics/data points to include: [List]
+- [ ] Internal links to: [List of pages]
+- [ ] External sources to cite: [List]
+- [ ] Images needed: [Description]
+- [ ] Schema type: [FAQPage / HowTo / Article]
+
+## E-E-A-T Signals
+- Author: [Name, credentials]
+- Experience to demonstrate: [What first-hand experience to mention]
+- Expert sources to cite: [Industry experts, studies]
+
+## Call to Action
+- Primary CTA: [What we want readers to do]
+- Secondary CTA: [Alternative action]
+
+## SEO Checklist
+- [ ] Title tag: [Draft, under 60 char]
+- [ ] Meta description: [Draft, 150-160 char]
+- [ ] URL slug: [proposal]
+- [ ] Focus keyword in H1, first paragraph, and naturally throughout
+```
+
+#### Quick Brief (For High-Volume)
+
+When producing at scale, use a shortened version:
+
+```markdown
+# Quick Brief
+
+**Keyword:** [primary]
+**Intent:** [type]
+**Word count:** [range]
+**Format:** [type]
+
+**Beat competitors by:**
+- [Differentiator 1]
+- [Differentiator 2]
+
+**Must include:**
+- FAQ: Y/N
+- Stats: [which ones]
+- Schema: [type]
+- Internal links: [pages]
+
+**Outline:**
+- H1: [title]
+- H2: [section 1]
+- H2: [section 2]
+- H2: [section 3]
+- H2: FAQ
+
+**CTA:** [action]
+```
+
+#### Research Process Before Writing
+
+**Step 1: Keyword Analysis (5 min)**
+1. Search the keyword in Google
+2. Note the intent (what type of content ranks?)
+3. Check "People Also Ask" for questions
+4. Check related searches at bottom
+5. Document keyword difficulty if using tools
+
+**Step 2: Competitor Audit (10 min)**
+1. Open top 3 ranking pages
+2. Note their structure (headers, format)
+3. Count approximate word count
+4. Identify their strengths
+5. Identify what's missing (your opportunity)
+
+**Step 3: Outline Creation (10 min)**
+1. Determine best format based on intent
+2. Create H2 structure covering all necessary topics
+3. Add H3s for detailed sections
+4. Note where stats/examples needed
+5. Plan FAQ section (use PAA questions)
+
+**Step 4: Unique Angle Definition (5 min)**
+1. What can you add that competitors don't have?
+2. What unique experience/data do you bring?
+3. What's your opinion on the topic?
+4. How is your approach different?
+
+**Brief Checklist:**
+- [ ] Keyword and intent documented
+- [ ] Top 3 competitors analyzed
+- [ ] Content gap identified
+- [ ] Unique angle defined
+- [ ] Outline complete with H2/H3
+- [ ] Required elements listed
+- [ ] Word count target set
+- [ ] Title and meta drafted
+
+#### Content Production Without Briefs (Anti-Pattern)
+
+**What Happens Without Planning:**
+- Random structure that doesn't match search intent
+- Missing important subtopics
+- Inconsistent depth (too shallow or too long)
+- No differentiation from competitors
+- Missing SEO elements (schema, FAQ, etc.)
+- Longer production time (false starts, rewrites)
+- Lower quality per article
+
+**Time Investment Comparison:**
+
+| Approach | Brief Time | Writing Time | Edit Time | Total | Quality |
+|----------|------------|--------------|-----------|-------|---------|
+| No brief | 0 min | 60 min | 30 min | 90 min | Variable |
+| Quick brief | 15 min | 45 min | 15 min | 75 min | Consistent |
+| Full brief | 30 min | 40 min | 10 min | 80 min | High |
+
+Briefs actually save time by reducing rewrites and edits.
+
+---
+
 ## Response Guidelines
 
 1. **Be Specific**: Give exact recommendations, not vague advice
@@ -1777,6 +2497,7 @@ Phase 5: MONITORING (Weekly)
 
 ## Changelog
 
+- **v3.2** (Jan 2026): Added Content Excellence section - Writing craft (hooks, flow, voice, storytelling, transitions), External Linking Strategy, Multimedia Decision Framework (images vs video vs tools), Content Briefs & Planning. Removed redundant Content Refresh Schedule (consolidated into Content Production section)
 - **v3.1** (Jan 2026): Added Content Production at Scale section for Claude Code users - Content velocity strategy, Programmatic SEO guidance, Topical authority hub-and-spoke model, AI content guidelines, Content refresh strategy with data, Interactive tools & calculators, Production workflow with daily targets
 - **v3.0** (Jan 2026): Major knowledge base expansion - Added Featured Snippets optimization, CTR tactics, Link Building Playbook (7 proven tactics), Content Formats That Rank (8 types), Video SEO, Semantic SEO & Entities, User Signals & Engagement
 - **v2.2** (Jan 2026): Added Persistence & Memory system - `.seo/` folder for tracking strategy, tasks, and progress across sessions. Added Status mode for checking progress.
