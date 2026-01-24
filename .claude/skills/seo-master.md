@@ -1,6 +1,6 @@
 # SEO Master Skill
 
-> Version 2.2 | Last Updated: January 2026
+> Version 3.0 | Last Updated: January 2026
 
 A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies.
 
@@ -925,6 +925,443 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 **Example:**
 `Complete SEO audit checklist with 47 essential checks. Find and fix issues hurting your rankings. Free template included.`
 
+### Featured Snippets Optimization
+
+**What they are:** Position 0 results that appear above organic results. ~12% of searches have them.
+
+**Types of Featured Snippets:**
+
+| Type | Format | How to Win |
+|------|--------|------------|
+| **Paragraph** | 40-60 word answer | Direct answer after a question header |
+| **List** | Bulleted/numbered | 5-8 items with H2/H3 for each step |
+| **Table** | Data comparison | Use HTML tables with clear headers |
+| **Definition** | "What is X" | Start with "[Term] is..." format |
+
+**Optimization Tactics:**
+
+1. **Target questions already showing snippets**
+   - Search your keyword, see if snippet exists
+   - Analyze current snippet holder's format
+   - Create better, more complete version
+
+2. **Use the "is" sentence pattern**
+   ```
+   ## What is [Topic]?
+   [Topic] is [40-60 word definition that directly answers the question].
+   ```
+
+3. **For list snippets:**
+   - Use H2 or H3 for each item
+   - Start each with action verb or number
+   - Keep to 5-8 items (Google's sweet spot)
+
+4. **For table snippets:**
+   - Use actual HTML `<table>` tags
+   - Clear column headers
+   - 3-4 columns, 4-8 rows typical
+
+5. **Snippet-friendly formatting:**
+   - Question as H2, answer immediately after
+   - First sentence answers the query completely
+   - Expand with details below
+
+**Example Structure:**
+```html
+<h2>How long does SEO take to work?</h2>
+<p>SEO typically takes 3-6 months to show significant results, though
+competitive keywords may take 6-12 months. Early wins like technical
+fixes can improve rankings within weeks, while building authority
+through content and links requires sustained effort.</p>
+```
+
+### CTR Optimization (Click-Through Rate)
+
+**Why it matters:** Higher CTR = more traffic from same rankings. Can indirectly improve rankings through engagement signals.
+
+**Power Words That Increase CTR:**
+
+| Category | Words |
+|----------|-------|
+| **Urgency** | Now, Today, Fast, Quick, Instant |
+| **Value** | Free, Bonus, Exclusive, Premium |
+| **Trust** | Proven, Guaranteed, Official, Certified |
+| **Curiosity** | Secret, Hidden, Surprising, Strange |
+| **Emotion** | Amazing, Incredible, Essential, Powerful |
+
+**Title Tag CTR Boosters:**
+
+1. **Numbers increase CTR 36%**
+   - "7 Ways to..." beats "Ways to..."
+   - Odd numbers outperform even
+   - Specific > round (37 beats 40)
+
+2. **Brackets increase CTR 38%**
+   - [2026 Guide]
+   - (With Examples)
+   - [Free Template]
+
+3. **Year signals freshness**
+   - "Best CRM Software 2026"
+   - Critical for fast-moving topics
+
+4. **Question format for informational**
+   - "What is X?" matches voice search
+   - Triggers curiosity
+
+**CTR-Optimized Title Formulas:**
+
+```
+[Number] [Adjective] [Keyword] [Promise] [Year/Bracket]
+
+Examples:
+- 17 Proven SEO Tactics That Actually Work [2026]
+- How to [Achieve X] in [Timeframe] (Step-by-Step)
+- [Keyword]: The Ultimate Guide [Free Template]
+- [X] vs [Y]: Which is Better? (Honest Comparison)
+```
+
+**Meta Description CTR Tactics:**
+- Start with action verb or hook
+- Include a number or statistic
+- Add social proof if possible
+- End with CTA (Learn more, Get started, See how)
+- Use special characters sparingly (→ ✓ |)
+
+### Link Building Playbook
+
+**The Hierarchy of Link Value:**
+
+| Link Type | Value | Difficulty |
+|-----------|-------|------------|
+| Editorial from major publications | Highest | Very Hard |
+| Industry authority sites | Very High | Hard |
+| Relevant niche blogs | High | Medium |
+| Resource pages | Medium-High | Medium |
+| Guest posts (quality sites) | Medium | Medium |
+| Directories (quality) | Low-Medium | Easy |
+| Social profiles | Low | Easy |
+
+**Proven Link Building Tactics:**
+
+#### 1. Broken Link Building
+- Find broken links on relevant sites (use Ahrefs, Check My Links extension)
+- Create content that replaces the dead resource
+- Email webmaster offering your replacement
+- **Success rate:** 5-15%
+
+#### 2. Skyscraper Technique
+1. Find content with lots of backlinks in your niche
+2. Create something significantly better (longer, updated, more comprehensive)
+3. Reach out to everyone linking to the original
+4. **Success rate:** 5-10%
+
+#### 3. HARO / Featured.com / Connectively
+- Sign up for journalist query services
+- Respond to relevant queries with expert insights
+- Get quoted with backlink
+- **Success rate:** 10-20% for quality responses
+
+#### 4. Resource Page Link Building
+- Find "resources" or "useful links" pages in your niche
+- Search: `[keyword] + "resources" OR "useful links"`
+- Pitch your best content for inclusion
+- **Success rate:** 5-15%
+
+#### 5. Unlinked Brand Mentions
+- Monitor mentions of your brand (Google Alerts, Ahrefs)
+- Find mentions without links
+- Politely request link addition
+- **Success rate:** 20-40% (they already like you!)
+
+#### 6. Guest Posting (Quality Approach)
+- Target sites with real traffic and engagement
+- Pitch unique, valuable topics
+- Include 1-2 natural contextual links
+- **Avoid:** Link farms, low-quality PBNs
+
+#### 7. Digital PR / Data Studies
+- Create original research or surveys
+- Package with compelling narrative
+- Pitch to journalists and bloggers
+- **Success rate:** Variable, but links are highest quality
+
+**Link Building Timeline:**
+- Months 1-2: Set up monitoring, create linkable assets
+- Months 3-4: Begin outreach, first links appearing
+- Months 5-6: Momentum builds, refine approach
+- Ongoing: 5-20 quality links per month is excellent
+
+**Red Flags to Avoid:**
+- Paid links (against Google guidelines)
+- Link exchanges at scale
+- Low-quality directories
+- Irrelevant sites
+- Sites with "write for us" pages and no real content
+
+### Content Formats That Rank
+
+**High-Performing Content Types:**
+
+#### 1. "Best X" Listicles
+- High commercial intent, high traffic potential
+- Structure: Intro → Criteria → List with details → FAQ
+- Word count: 2,500-4,000 words
+- Include: Pros/cons, pricing, who it's for
+- Example: "Best CRM Software for Small Business (2026)"
+
+#### 2. "How to" Guides
+- Matches informational intent
+- Structure: Overview → Steps → Tips → FAQ
+- Use numbered steps with clear headers
+- Include images/screenshots for each step
+- Example: "How to Do Keyword Research (Step-by-Step)"
+
+#### 3. "X vs Y" Comparisons
+- High commercial intent, comparison shoppers
+- Structure: Quick answer → Detailed comparison → Verdict
+- Use comparison tables
+- Be genuinely objective (builds trust)
+- Example: "Ahrefs vs Semrush: Which SEO Tool is Better?"
+
+#### 4. Ultimate/Complete Guides
+- Pillar content for topic clusters
+- Word count: 4,000-10,000+ words
+- Cover everything about a topic
+- Strong internal linking hub
+- Update frequently
+- Example: "The Complete Guide to Technical SEO"
+
+#### 5. Statistics & Research Posts
+- Highly linkable (journalists cite stats)
+- Compile data from multiple sources OR create original
+- Easy to update annually
+- Great for AI citations (fact-dense)
+- Example: "50 SEO Statistics You Need to Know (2026)"
+
+#### 6. Tools & Calculators
+- Reduce bounce rate (users interact)
+- Get natural backlinks
+- Build email lists
+- Examples: ROI calculator, word counter, audit tool
+- Consider: Embed on content pages
+
+#### 7. Templates & Checklists
+- High download/save rate
+- Gated = email capture opportunity
+- Shareable and linkable
+- Examples: SEO checklist PDF, content calendar template
+
+#### 8. Case Studies
+- Prove E-E-A-T through experience
+- Structure: Challenge → Solution → Results
+- Include specific numbers
+- Example: "How We Increased Organic Traffic 312% in 6 Months"
+
+**Content Format by Search Intent:**
+
+| Intent | Best Formats |
+|--------|--------------|
+| Informational | How-to, Ultimate guides, What is X |
+| Commercial | Best X, X vs Y, Reviews |
+| Transactional | Product pages, Pricing, Landing pages |
+| Navigational | Homepage, About, Contact |
+
+### Video SEO
+
+**Why it matters:** YouTube is the 2nd largest search engine. Videos appear in 20%+ of Google searches.
+
+**YouTube SEO Fundamentals:**
+
+1. **Title Optimization**
+   - Keyword in first 60 characters
+   - Compelling hook (numbers, questions)
+   - Match search intent
+
+2. **Description**
+   - First 150 characters most important (shows in search)
+   - Include target keyword in first sentence
+   - Add timestamps for chapters
+   - Link to relevant content
+
+3. **Tags**
+   - Primary keyword first
+   - Include variations and related terms
+   - 5-15 tags typical
+
+4. **Thumbnail CTR**
+   - Custom thumbnail always (10-20% higher CTR)
+   - High contrast, readable text
+   - Faces increase clicks
+   - Consistent branding
+
+5. **Chapters/Timestamps**
+   - Helps users navigate
+   - Can appear in Google search results
+   - Format: `0:00 Introduction`
+
+**Video Schema Markup:**
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "How to Do Keyword Research",
+  "description": "Learn keyword research step by step...",
+  "thumbnailUrl": "https://example.com/thumbnail.jpg",
+  "uploadDate": "2026-01-15",
+  "duration": "PT10M30S",
+  "embedUrl": "https://youtube.com/embed/xxx"
+}
+```
+
+**Video Content Strategy:**
+- Transcripts on page (helps Google understand content)
+- Embed videos in relevant blog posts
+- Create video versions of top-performing articles
+- Short-form (YouTube Shorts, TikTok) for discovery → Long-form for depth
+
+**Engagement Signals YouTube Values:**
+- Watch time (most important)
+- Click-through rate on impressions
+- Likes, comments, shares
+- Subscriber conversion
+- Session time (do they watch more videos?)
+
+### Semantic SEO & Entities
+
+**What is Semantic SEO?**
+Optimizing for meaning, not just keywords. Google understands topics, entities, and relationships—not just keyword matching.
+
+**Entities Explained:**
+An entity is a thing that is singular, unique, well-defined, and distinguishable. Examples: "Apple Inc." (company), "Paris" (city), "SEO" (concept).
+
+**How Google Uses Entities:**
+- Knowledge Graph contains billions of entities
+- Understands relationships between entities
+- Can distinguish "Apple" (company) vs "apple" (fruit) from context
+- Rewards content that demonstrates topical expertise
+
+**Semantic SEO Tactics:**
+
+#### 1. Entity Optimization
+- Mention relevant entities in your content
+- Use consistent terminology
+- Link to authoritative sources about entities (Wikipedia, official sites)
+- Use schema markup to clarify entities
+
+#### 2. Topical Coverage
+- Cover all aspects of a topic (not just one keyword)
+- Answer related questions
+- Address subtopics comprehensively
+- Think: "What else would someone searching this want to know?"
+
+#### 3. Co-occurrence & Context
+- Include terms that naturally appear alongside your topic
+- For "SEO": rankings, keywords, Google, organic traffic, backlinks
+- Tools: Surfer SEO, Clearscope, MarketMuse (show related terms)
+
+#### 4. NLP-Friendly Writing
+- Clear, unambiguous sentences
+- Subject-verb-object structure
+- Define terms when introducing them
+- Use synonyms naturally
+
+**Finding Related Entities:**
+1. Google your keyword → Look at "People also ask"
+2. Check Wikipedia article → Note linked entities
+3. Use entity extraction tools
+4. Analyze top-ranking competitors
+
+**Example - Entity-Rich Content:**
+
+**Weak:** "SEO helps your website rank better."
+
+**Strong:** "Search engine optimization (SEO) improves your website's visibility in Google Search results. Key factors include technical SEO, on-page optimization, backlinks from authoritative domains, and Core Web Vitals performance metrics."
+
+(Second version: more entities, more context, more semantic richness)
+
+### User Signals & Engagement
+
+**Engagement Metrics Google May Use:**
+
+| Signal | What It Measures | How to Improve |
+|--------|------------------|----------------|
+| **Dwell Time** | How long users stay | Better content, media, readability |
+| **Bounce Rate** | % leaving without interaction | Match intent, improve above-fold |
+| **Pogo-sticking** | Quick returns to SERP | Answer query better, faster |
+| **Click Depth** | Pages per session | Internal linking, related content |
+| **Scroll Depth** | How far users scroll | Engaging content, good structure |
+
+**Note:** Google denies using these directly, but quality raters assess user satisfaction, and content that engages tends to rank.
+
+**Reducing Bounce Rate:**
+
+1. **Match search intent exactly**
+   - If they want a list, give a list
+   - If they want an answer, answer immediately
+
+2. **Optimize above-the-fold**
+   - Hook in first paragraph
+   - Show you'll answer their question
+   - No huge header images pushing content down
+
+3. **Page speed**
+   - 53% bounce if load >3 seconds
+   - Optimize images, minimize scripts
+
+4. **Clear formatting**
+   - Headers, bullets, short paragraphs
+   - Break up walls of text
+
+5. **Add interactive elements**
+   - Tools, calculators, quizzes
+   - Anchor links to sections
+   - Table of contents
+
+**Increasing Dwell Time:**
+
+1. **Comprehensive content**
+   - Answer the main query AND follow-up questions
+   - "What else would they want to know?"
+
+2. **Multimedia**
+   - Images, videos, infographics
+   - Data visualizations
+
+3. **Internal links**
+   - Related articles
+   - "Learn more about X" prompts
+
+4. **Engagement hooks**
+   - Stories, examples, case studies
+   - Controversy or unique angles
+
+5. **Progressive disclosure**
+   - Start simple, go deeper
+   - Keep them reading for the "good stuff"
+
+**Preventing Pogo-Sticking:**
+
+Pogo-sticking = user clicks your result, immediately returns to SERP, clicks another result. Strong negative signal.
+
+**Prevention:**
+- Answer the query in the first paragraph
+- Make sure content matches title promise
+- Don't bait-and-switch
+- If you can't fully answer, say so and provide next steps
+
+**Engagement Optimization Checklist:**
+- [ ] Title matches content (no bait)
+- [ ] Query answered in first 100 words
+- [ ] Clear visual hierarchy
+- [ ] Loads in <3 seconds
+- [ ] Mobile-friendly formatting
+- [ ] Table of contents for long content
+- [ ] Related posts / internal links
+- [ ] Images break up text
+- [ ] CTA or next step at end
+
 ---
 
 ## Response Guidelines
@@ -988,6 +1425,7 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 
 ## Changelog
 
+- **v3.0** (Jan 2026): Major knowledge base expansion - Added Featured Snippets optimization, CTR tactics, Link Building Playbook (7 proven tactics), Content Formats That Rank (8 types), Video SEO, Semantic SEO & Entities, User Signals & Engagement
 - **v2.2** (Jan 2026): Added Persistence & Memory system - `.seo/` folder for tracking strategy, tasks, and progress across sessions. Added Status mode for checking progress.
 - **v2.1** (Jan 2026): Added Master Mode - autonomous full analysis with auto-diagnosis and action planning
 - **v2.0** (Jan 2026): Added Local SEO, E-E-A-T details, Technical checklist, Search intent, Competitor analysis, Image SEO, URL structure, AI crawler management, Scoring rubric, Version tracking
