@@ -1,6 +1,6 @@
 # SEO Master Skill
 
-> Version 3.0 | Last Updated: January 2026
+> Version 3.1 | Last Updated: January 2026
 
 A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies.
 
@@ -1362,6 +1362,358 @@ Pogo-sticking = user clicks your result, immediately returns to SERP, clicks ano
 - [ ] Images break up text
 - [ ] CTA or next step at end
 
+### Content Production at Scale (Claude Code Users)
+
+**The Advantage:** With AI assistance, you can produce 10-20 articles/day and 1-5 tools/week. This section covers how to leverage that capability strategically.
+
+#### The Golden Rule
+
+**Scale is only valuable if quality remains high.**
+
+Google's "Scaled Content Abuse" policy targets "content created with little effort or originality with no editing or manual curation." AI-generated content CAN rank, but only if it provides genuine value.
+
+**What works:**
+- AI-assisted content with human expertise, editing, and unique insights
+- Programmatic pages with genuinely unique data per page
+- High-volume publishing within topical clusters
+
+**What fails:**
+- Generic AI output published without review
+- Find-and-replace template content with no unique value
+- Volume without strategy
+
+#### Content Velocity Strategy
+
+**When to Publish High Volume (10-20/day):**
+
+| Situation | Why It Works |
+|-----------|--------------|
+| Building topical authority in new niche | Establishes comprehensive coverage quickly |
+| Programmatic SEO with unique data | Each page has genuinely different value |
+| Content refresh campaign | Updating existing content is safer at volume |
+| Long-tail keyword expansion | Many low-competition queries to capture |
+| Competitor gap filling | Closing content gaps they've already validated |
+
+**When to Publish Slow (1-3/week):**
+
+| Situation | Why It Works |
+|-----------|--------------|
+| New domain (<6 months) | Build trust before scaling |
+| YMYL topics (health, finance) | Requires extra E-E-A-T signals |
+| Highly competitive keywords | Quality and promotion matter more |
+| Link-dependent topics | Need time to build backlinks |
+
+**Phased Rollout (Recommended):**
+```
+Week 1-2: Publish 5-10 pillar/cluster pages (foundation)
+Week 3-4: Scale to 20-30 supporting articles
+Month 2+: Maintain 10-15/week, focus on promotion
+Month 3+: Content refresh cycle begins
+```
+
+#### Programmatic SEO
+
+**What it is:** Creating thousands of pages from templates + data to target long-tail variations.
+
+**Examples that work:**
+- Wise: 8.5 million currency converter pages
+- Zillow: Millions of location + property type pages
+- Nomadlist: City pages with standardized data
+
+**When to use programmatic SEO:**
+
+| Good Fit | Poor Fit |
+|----------|----------|
+| Location variations (X in [City]) | Generic informational content |
+| Product comparisons (X vs Y) | Opinion/editorial content |
+| Data-driven pages (stats, converters) | Topics requiring unique research |
+| Template services (contracts, forms) | YMYL without credentials |
+
+**Programmatic SEO Requirements:**
+
+1. **Unique data per page** (not just find-replace)
+   - Each page needs genuinely different information
+   - At minimum: unique stats, examples, or data points
+
+2. **User value test**
+   - Would someone bookmark this specific page?
+   - Does it answer a real query better than competitors?
+
+3. **Technical foundation**
+   - Proper internal linking between related pages
+   - XML sitemap management for large page sets
+   - Monitor indexation rates in Search Console
+
+4. **Phased rollout**
+   - Small sites: 50-100 pages/week
+   - Large sites (crawled daily): Up to 10,000/week
+   - Monitor rankings before scaling further
+
+**Template Quality Checklist:**
+- [ ] Each page has 500+ words of unique content
+- [ ] Data/stats are specific to that page's topic
+- [ ] FAQs are relevant to that specific variation
+- [ ] Internal links to related variations
+- [ ] Schema markup for the content type
+- [ ] Clear intent match for the target query
+
+#### Topical Authority: The Hub-and-Spoke Model
+
+**Why it matters:** Google rewards sites that demonstrate comprehensive expertise in a topic, not one-off articles.
+
+**Structure:**
+
+```
+                     [PILLAR PAGE]
+                    "Complete Guide to X"
+                    (3,000-5,000 words)
+                          │
+       ┌──────────────────┼──────────────────┐
+       │                  │                  │
+   [CLUSTER 1]       [CLUSTER 2]       [CLUSTER 3]
+   "How to do X"     "X vs Y"         "Best X for Z"
+   (1,500-2,500)    (1,500-2,500)    (1,500-2,500)
+       │                  │                  │
+   ┌───┼───┐          ┌───┼───┐          ┌───┼───┐
+   │   │   │          │   │   │          │   │   │
+  [S] [S] [S]        [S] [S] [S]        [S] [S] [S]
+Supporting articles (800-1,500 words each)
+```
+
+**Building Topical Authority at Scale:**
+
+1. **Map the topic completely**
+   - List every question someone might ask
+   - Identify every subtopic and variation
+   - Check "People Also Ask" for gaps
+
+2. **Create pillar first**
+   - Comprehensive overview of entire topic
+   - Links to all cluster content
+   - Updated frequently
+
+3. **Build clusters systematically**
+   - Group by subtopic/intent
+   - Each cluster has 5-10 supporting articles
+   - All link back to pillar
+
+4. **Internal linking is critical**
+   - Pillar links to all clusters
+   - Clusters link to related clusters
+   - Supporting articles link to parent cluster + pillar
+
+**Topic Authority Metrics:**
+- You should aim to cover 80%+ of a topic's subtopics
+- Competitors ranking well typically have 30-100+ pages on a topic
+- Sites with clustered content see 30% more traffic than scattered content
+
+#### AI Content Guidelines (What Google Accepts)
+
+**Google's official position:** "Appropriate use of AI or automation is not against our guidelines."
+
+**What matters is quality, not creation method:**
+
+| Accepted | Rejected |
+|----------|----------|
+| AI + human expertise/editing | Raw AI output, unedited |
+| AI for research/drafting | AI for mass production of thin content |
+| AI with unique insights added | AI that just rewrites competitors |
+| AI-assisted, human-verified facts | AI with hallucinated information |
+
+**AI Content Quality Checklist:**
+
+- [ ] Human expert has reviewed for accuracy
+- [ ] Unique insights/examples added (not just AI)
+- [ ] Facts verified against authoritative sources
+- [ ] Author with real credentials attributed
+- [ ] E-E-A-T signals present (bio, credentials, citations)
+- [ ] Provides value beyond what's already ranking
+- [ ] Not detectable as "generic AI" (has voice/personality)
+
+**The "Effort" Test:**
+Google's quality guidelines mention "effort" repeatedly. Ask yourself:
+- Did creating this require expertise?
+- Does this add something new to the conversation?
+- Would a human expert approve of this content?
+
+#### Content Refresh Strategy
+
+**The data:**
+- HubSpot: 106% increase in organic traffic from content refreshes
+- 76% of blog views come from old posts
+- 92% of leads originate from old content
+
+**Content Refresh Prioritization:**
+
+| Priority | Content Type | Action |
+|----------|--------------|--------|
+| 1 (Highest) | High traffic, declining | Update immediately |
+| 2 | High impressions, low CTR | Optimize title/meta |
+| 3 | Position 4-20 (striking distance) | Expand and improve |
+| 4 | Good traffic, outdated info | Refresh stats/examples |
+| 5 (Lower) | Low traffic, low potential | Consider consolidating |
+
+**What to update:**
+
+1. **Statistics and data**
+   - Replace old stats with current data
+   - Add new research findings
+   - Update year references
+
+2. **Examples and screenshots**
+   - Current UI screenshots
+   - Recent case studies
+   - Updated pricing/features
+
+3. **New sections**
+   - Add FAQ (4-8 questions)
+   - Add comparison tables
+   - Address new subtopics
+
+4. **SEO elements**
+   - Refresh title for CTR
+   - Update meta description
+   - Add new internal links
+   - Improve schema markup
+
+5. **Content structure**
+   - Add TL;DR for AI search
+   - Improve headers for snippets
+   - Break up long paragraphs
+
+**Refresh Frequency:**
+
+| Content Type | Refresh Cycle |
+|--------------|---------------|
+| Fast-moving (tech, SEO, trends) | Every 3-6 months |
+| Evergreen (how-tos, guides) | Every 6-12 months |
+| Statistics posts | Annually (or when new data) |
+| High-competition pages | Quarterly |
+
+**Post-Refresh Actions:**
+1. Submit to Search Console for re-indexing
+2. Update social posts linking to it
+3. Re-promote via email/social
+4. Pitch for new backlinks (it's "new" content now)
+
+#### Interactive Tools & Calculators
+
+**Why build tools:**
+- 5.2x more backlinks than standard articles
+- 45% increase in dwell time
+- 12% lower bounce rate
+- Natural link magnets (people cite useful tools)
+
+**High-Value Tool Types:**
+
+| Tool Type | Example | Link Potential |
+|-----------|---------|----------------|
+| Calculators | ROI calculator, pricing estimator | Very High |
+| Generators | Name generator, title generator | High |
+| Checkers | SEO checker, grammar checker | High |
+| Converters | Unit converter, file converter | Medium-High |
+| Templates | Contract templates, email templates | Medium |
+| Quizzes | Assessment quiz, knowledge test | Medium |
+
+**Tool Development Strategy:**
+
+1. **Identify tool opportunities**
+   - What calculations do people in your niche need?
+   - What manual processes can you automate?
+   - What tools do competitors have that you don't?
+
+2. **Build simple first**
+   - Start with basic HTML/JS calculators
+   - Claude Code can generate these quickly
+   - Test demand before building complex tools
+
+3. **Embed strategically**
+   - Place tools on relevant content pages
+   - Create dedicated landing pages for tools
+   - Add to resource pages
+
+4. **Promote for links**
+   - Reach out to resource page curators
+   - Submit to tool directories
+   - Mention in guest posts
+
+**Tool SEO Checklist:**
+- [ ] Dedicated landing page with tool
+- [ ] Supporting content explaining how to use
+- [ ] Schema markup (SoftwareApplication)
+- [ ] Fast loading (tools should be instant)
+- [ ] Mobile-friendly interface
+- [ ] Shareable results (social proof)
+- [ ] Email capture opportunity (optional)
+
+#### Content Production Workflow (Claude Code)
+
+**Efficient workflow for high-volume production:**
+
+```
+Phase 1: PLANNING (Weekly)
+├── Identify keyword clusters to target
+├── Map content to intent types
+├── Prioritize by opportunity score
+└── Create content calendar
+
+Phase 2: PRODUCTION (Daily)
+├── Generate drafts with Claude
+├── Add unique insights/examples
+├── Verify facts against sources
+├── Optimize for target keywords
+└── Add schema, images, internal links
+
+Phase 3: QUALITY (Per Article)
+├── E-E-A-T check (author, credentials, citations)
+├── Readability pass (short paragraphs, headers)
+├── AI readability pass (FAQs, TL;DR, lists)
+├── Technical SEO check (title, meta, schema)
+└── Final human review
+
+Phase 4: PUBLISHING
+├── Upload to CMS
+├── Submit to Search Console
+├── Add to internal linking structure
+├── Queue for social promotion
+
+Phase 5: MONITORING (Weekly)
+├── Check indexation status
+├── Monitor initial rankings
+├── Track engagement metrics
+├── Identify refresh candidates
+```
+
+**Daily Production Targets (Realistic):**
+
+| Content Type | Production Rate | Quality Time |
+|--------------|-----------------|--------------|
+| Full articles (1,500-2,500 words) | 5-10/day | 30-60 min each |
+| Supporting articles (800-1,200) | 10-15/day | 20-30 min each |
+| Programmatic pages | 50-100/day | Template + data |
+| Content refreshes | 10-20/day | 15-30 min each |
+| Simple tools/calculators | 1-3/day | 1-2 hours each |
+
+**Quality Assurance at Scale:**
+
+1. **Batch similar content**
+   - Research once, write many variations
+   - Maintain consistency across cluster
+
+2. **Template quality checks**
+   - Create checklist per content type
+   - Run through checklist before publishing
+
+3. **Spot-check after publishing**
+   - Manually review 10-20% of content
+   - Look for patterns in issues
+   - Fix templates if problems repeat
+
+4. **Monitor performance signals**
+   - Track time-on-page per content type
+   - Watch for indexation issues
+   - Act fast if quality problems emerge
+
 ---
 
 ## Response Guidelines
@@ -1425,6 +1777,7 @@ Pogo-sticking = user clicks your result, immediately returns to SERP, clicks ano
 
 ## Changelog
 
+- **v3.1** (Jan 2026): Added Content Production at Scale section for Claude Code users - Content velocity strategy, Programmatic SEO guidance, Topical authority hub-and-spoke model, AI content guidelines, Content refresh strategy with data, Interactive tools & calculators, Production workflow with daily targets
 - **v3.0** (Jan 2026): Major knowledge base expansion - Added Featured Snippets optimization, CTR tactics, Link Building Playbook (7 proven tactics), Content Formats That Rank (8 types), Video SEO, Semantic SEO & Entities, User Signals & Engagement
 - **v2.2** (Jan 2026): Added Persistence & Memory system - `.seo/` folder for tracking strategy, tasks, and progress across sessions. Added Status mode for checking progress.
 - **v2.1** (Jan 2026): Added Master Mode - autonomous full analysis with auto-diagnosis and action planning
