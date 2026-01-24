@@ -21,7 +21,7 @@ This Claude Code skill helps you:
 
 1. Clone this repo into your project or home directory:
 ```bash
-git clone https://github.com/YOUR_USERNAME/seo-master-skill.git ~/.claude/skills/seo-master
+git clone https://github.com/wikatar/Skills-Claude-SEO.git ~/.claude/skills/seo-master
 ```
 
 2. Or copy the skill file directly:
@@ -85,6 +85,7 @@ Get tailored plans covering:
 | Document | Description |
 |----------|-------------|
 | [SEO_STRATEGY_2025.md](./SEO_STRATEGY_2025.md) | Complete strategy framework with all research |
+| [CHEATSHEET.md](./CHEATSHEET.md) | Quick reference guide |
 | [.claude/skills/seo-master.md](./.claude/skills/seo-master.md) | The skill file itself |
 
 ## Key Concepts Covered
