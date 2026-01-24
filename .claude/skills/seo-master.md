@@ -1,6 +1,6 @@
 # SEO Master Skill
 
-> Version 2.1 | Last Updated: January 2026
+> Version 2.2 | Last Updated: January 2026
 
 A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies.
 
@@ -11,12 +11,110 @@ A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing conten
 | Command | What It Does |
 |---------|--------------|
 | `/seo <url>` | **Master mode** - Full auto-diagnosis and action plan |
+| `/seo status` | Check progress against strategy |
 | `/seo audit <url>` | Full SEO audit of a page |
 | `/seo optimize` | Optimize content for a keyword |
 | `/seo strategy` | Generate comprehensive SEO strategy |
 | `/seo prioritize` | Decide what to work on first |
 | `/seo technical` | Technical SEO checklist |
 | `/seo local` | Local SEO optimization |
+
+---
+
+## Persistence & Memory
+
+**SEO is a long-term game.** This skill maintains a `.seo/` folder to track strategy, progress, and learnings across sessions.
+
+### Folder Structure
+
+```
+.seo/
+├── strategy.md         # Master strategy document
+├── inventory.md        # Content pages + their SEO status
+├── tasks.md            # Tasks: pending, in-progress, completed
+├── keywords.md         # Target keywords + current rankings
+└── log.md              # Session log with dated entries
+```
+
+### How It Works
+
+**First Session:**
+1. Skill checks: Does `.seo/` folder exist?
+2. If NO → Create folder + run full analysis → Save to `strategy.md`
+3. If YES → Read existing strategy → Continue from where we left off
+
+**Subsequent Sessions:**
+1. Read `.seo/strategy.md` to understand current state
+2. Check `tasks.md` for pending items
+3. Update based on new information
+4. Log session notes to `log.md`
+
+### File Templates
+
+**strategy.md:**
+```markdown
+# SEO Strategy: [Site Name]
+
+> Last updated: [Date]
+> Current score: [X/100]
+
+## Overview
+- Site: [URL]
+- Primary goal: [Goal]
+- Target audience: [Audience]
+
+## Current State
+[Summary of where we are]
+
+## 90-Day Roadmap
+[High-level plan]
+
+## Key Metrics
+| Metric | Baseline | Current | Target |
+|--------|----------|---------|--------|
+| Organic traffic | X | Y | Z |
+
+## Competitors
+- [Competitor 1]
+- [Competitor 2]
+```
+
+**tasks.md:**
+```markdown
+# SEO Tasks: [Site Name]
+
+## In Progress
+- [ ] [Task] - Started [Date]
+
+## Pending
+- [ ] [Task] - Priority: High/Medium/Low
+
+## Completed
+- [x] [Task] - Completed [Date]
+```
+
+**log.md:**
+```markdown
+# SEO Session Log: [Site Name]
+
+## [Date]
+### What we did
+- [Action taken]
+
+### Findings
+- [Discovery]
+
+### Next session
+- [What to focus on]
+```
+
+### Key Behaviors
+
+1. **Always check for `.seo/` first** - Before any analysis, look for existing strategy
+2. **Update, don't overwrite** - Build on previous work, don't start fresh
+3. **Log every session** - Add dated entry to `log.md`
+4. **Mark tasks complete** - Move finished items to Completed section
+5. **Track metrics** - Note any ranking/traffic changes mentioned
 
 ---
 
@@ -51,16 +149,23 @@ This skill helps you:
 **The autonomous mode.** Give it a URL and it figures out everything.
 
 This mode automatically:
-1. Diagnoses current state across all SEO dimensions
-2. Identifies the biggest problems and opportunities
-3. Creates a prioritized action plan
-4. Tells you exactly what to do first
+1. **Checks for existing strategy** in `.seo/` folder
+2. Diagnoses current state across all SEO dimensions
+3. Identifies the biggest problems and opportunities
+4. Creates a prioritized action plan
+5. **Saves/updates** the strategy files
 
 **When to use:** When you want a complete picture without guiding the analysis yourself.
 
 **Process:**
 
 ```
+Step 0: CHECK MEMORY
+├── Look for .seo/ folder
+├── If exists: Read strategy.md, tasks.md, log.md
+├── Understand where we left off
+└── Continue from there (don't restart)
+
 Step 1: DIAGNOSE
 ├── Fetch and analyze the page/site
 ├── Check traditional SEO elements
@@ -82,6 +187,13 @@ Step 3: PLAN
 ├── Create 30-day roadmap
 ├── Create 90-day roadmap
 └── Define success metrics
+
+Step 4: PERSIST
+├── Create .seo/ folder if needed
+├── Write/update strategy.md
+├── Update tasks.md with new tasks
+├── Add session entry to log.md
+└── Confirm files saved
 ```
 
 **Output Format:**
@@ -140,11 +252,56 @@ Step 3: PLAN
 
 **Key Behaviors:**
 
-1. **Be autonomous** - Don't ask what to analyze. Analyze everything relevant.
-2. **Be specific** - Don't say "improve your titles." Say "Change title from X to Y."
-3. **Be prioritized** - Always rank by impact. Don't overwhelm with 50 equal tasks.
-4. **Be realistic** - Consider effort required. Quick wins first.
-5. **Ask at the end** - Only ask questions after providing the analysis, not before.
+1. **Check memory first** - Always look for `.seo/` folder before starting analysis
+2. **Be autonomous** - Don't ask what to analyze. Analyze everything relevant.
+3. **Be specific** - Don't say "improve your titles." Say "Change title from X to Y."
+4. **Be prioritized** - Always rank by impact. Don't overwhelm with 50 equal tasks.
+5. **Be realistic** - Consider effort required. Quick wins first.
+6. **Persist everything** - Save strategy, tasks, and session log
+7. **Ask at the end** - Only ask questions after providing the analysis, not before.
+
+---
+
+### Status Mode: Check Progress (`/seo status` or "How's my SEO going?")
+
+**Quick check on progress against the existing strategy.**
+
+This mode:
+1. Reads `.seo/` folder
+2. Summarizes current state vs. goals
+3. Shows completed vs. pending tasks
+4. Identifies what to focus on next
+
+**Output Format:**
+```
+## SEO Status: [Site Name]
+
+### Progress Overview
+- Strategy started: [Date]
+- Current score: [X/100] (was [Y] at baseline)
+- Tasks completed: [X/Y]
+
+### Recent Wins
+- [x] [Completed task] - [Date]
+- [x] [Completed task] - [Date]
+
+### Current Focus
+- [ ] [In-progress task]
+
+### Up Next
+- [ ] [Next priority task]
+- [ ] [Next priority task]
+
+### Blockers / Notes
+[Any issues or things to discuss]
+
+### Metrics Trend
+| Metric | Baseline | Last Check | Now | Target |
+|--------|----------|------------|-----|--------|
+| [Metric] | X | Y | Z | Goal |
+```
+
+**If no `.seo/` folder exists:** Prompt user to run Master Mode first.
 
 ---
 
@@ -790,6 +947,12 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 - "Full SEO analysis of [URL]"
 - "What should I focus on for [URL]?"
 
+**Status (Check Progress):**
+- "How's my SEO going?"
+- "SEO status"
+- "What's left to do on SEO?"
+- "Check SEO progress"
+
 **Auditing:**
 - "Audit this page for SEO: [URL]"
 - "What's wrong with my site's SEO?"
@@ -825,6 +988,7 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 
 ## Changelog
 
+- **v2.2** (Jan 2026): Added Persistence & Memory system - `.seo/` folder for tracking strategy, tasks, and progress across sessions. Added Status mode for checking progress.
 - **v2.1** (Jan 2026): Added Master Mode - autonomous full analysis with auto-diagnosis and action planning
 - **v2.0** (Jan 2026): Added Local SEO, E-E-A-T details, Technical checklist, Search intent, Competitor analysis, Image SEO, URL structure, AI crawler management, Scoring rubric, Version tracking
 - **v1.1** (Jan 2026): Added Prioritization mode, Cannibalization guidance
