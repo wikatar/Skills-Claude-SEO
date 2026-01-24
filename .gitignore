@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+._*
+.AppleDouble
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Node (if adding tooling later)
+node_modules/
+npm-debug.log
+
+# Python (if adding tooling later)
+__pycache__/
+*.py[cod]
+.env
+venv/
+
+# Build outputs
+dist/
+build/
+*.log
