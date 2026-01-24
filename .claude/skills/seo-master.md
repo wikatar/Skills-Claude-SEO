@@ -1,6 +1,6 @@
 # SEO Master Skill
 
-> Version 3.2 | Last Updated: January 2026
+> Version 3.3 | Last Updated: January 2026
 
 A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies.
 
@@ -2436,6 +2436,263 @@ Briefs actually save time by reducing rewrites and edits.
 
 ---
 
+### Content Formatting & UI Presentation
+
+**Your content will be rendered in a UI.** Structure and formatting directly impact readability, user experience, and SEO. This section covers the formatting discipline that separates amateur from professional content.
+
+#### Typography Rules
+
+**No Em Dashes in Body Text**
+
+Em dashes (—) cause problems:
+- Inconsistent rendering across platforms
+- Can break on mobile devices
+- Look unprofessional in some contexts
+- AI may misinterpret them
+
+**Instead of em dashes, use:**
+
+| Bad (Em Dash) | Good Alternative |
+|---------------|------------------|
+| "AI search—unlike traditional search—changes everything" | "AI search, unlike traditional search, changes everything" |
+| "The answer is simple—focus on quality" | "The answer is simple: focus on quality" |
+| "Three factors matter—authority, freshness, and relevance" | "Three factors matter: authority, freshness, and relevance" |
+
+**Use colons, commas, or separate sentences instead.**
+
+**Other Typography Rules:**
+
+| Character | Rule |
+|-----------|------|
+| **Quotes** | Use straight quotes (" ") not curly quotes (" ") |
+| **Apostrophes** | Use straight (') not curly (') |
+| **Ellipsis** | Use three periods (...) not the ellipsis character (…) |
+| **Dashes** | Use hyphens (-) for compound words, avoid em/en dashes |
+| **Spaces** | Single space after periods, never double |
+
+#### Lists Must Be Actual Lists
+
+**Critical Rule:** If you have 3+ related items, use a proper bulleted or numbered list. Never embed lists in prose.
+
+**Bad (Inline List):**
+```
+The key factors are authority, freshness, relevance, and comprehensiveness.
+```
+
+**Good (Actual List):**
+```
+The key factors are:
+- Authority
+- Freshness
+- Relevance
+- Comprehensiveness
+```
+
+**Why This Matters:**
+- Screen readers parse lists properly
+- Mobile users can scan quickly
+- AI search engines extract list items as discrete facts
+- Featured snippets often pull formatted lists
+- Reduces cognitive load
+
+**When to Use Numbered vs Bulleted:**
+
+| Use Numbered Lists | Use Bulleted Lists |
+|-------------------|-------------------|
+| Sequential steps (do this, then this) | Non-sequential items |
+| Ranked items (best to worst) | Equal-weight options |
+| Countable items ("5 ways to...") | Features or benefits |
+| Instructions | Examples |
+
+**List Formatting Rules:**
+- Keep items parallel in structure (all start with verbs OR all are nouns)
+- Each item should be scannable (under 2 lines ideally)
+- Use sentence case, not title case
+- End items with periods only if they're complete sentences
+- Don't mix single words with full sentences in same list
+
+#### Table Formatting
+
+**When to Use Tables:**
+- Comparing 2+ items across multiple attributes
+- Presenting data with rows and columns
+- Quick-reference information
+- Feature comparisons
+- Pricing tiers
+
+**Table Best Practices:**
+
+| Rule | Why |
+|------|-----|
+| **Bold headers** | Clarifies structure |
+| **Align consistently** | Left-align text, right-align numbers |
+| **Keep cells concise** | No paragraphs inside cells |
+| **Limit columns** | 2-4 columns ideal, 5+ gets crowded on mobile |
+| **Use clear headers** | Headers should describe content below |
+
+**Bad Table:**
+```
+| Thing | Stuff |
+|-------|-------|
+| This is a really long explanation of something | Another really long piece of text |
+```
+
+**Good Table:**
+```
+| Factor | Impact |
+|--------|--------|
+| Authority | High |
+| Freshness | Medium |
+| Relevance | High |
+```
+
+#### Header Hierarchy
+
+**Strict Rules:**
+1. **One H1 per page** (the title)
+2. **H2s are main sections** (chapters)
+3. **H3s are subsections** (within H2s)
+4. **Never skip levels** (H1 → H3 is wrong)
+5. **Headers describe content** (not vague labels)
+
+**Bad Header Hierarchy:**
+```
+# Article Title
+### Subsection (skipped H2!)
+## Another Section
+#### Deep section (skipped H3!)
+```
+
+**Good Header Hierarchy:**
+```
+# Article Title
+## Main Section 1
+### Subsection 1.1
+### Subsection 1.2
+## Main Section 2
+### Subsection 2.1
+```
+
+**Header Writing Rules:**
+
+| Bad Header | Good Header | Why |
+|------------|-------------|-----|
+| "Overview" | "How AI Search Changes Discovery" | Specific and descriptive |
+| "Details" | "The 5 Ranking Factors That Matter" | Tells reader what they'll learn |
+| "More Information" | "Frequently Asked Questions" | Standard, recognizable |
+| "Part 1" | "Step 1: Audit Your Current Rankings" | Actionable, clear |
+
+**Headers Should Tell a Story:**
+Reading just your H2s should give a complete overview of the article.
+
+#### Whitespace and Readability
+
+**Paragraph Rules:**
+- 2-4 sentences per paragraph maximum
+- One idea per paragraph
+- Blank line between paragraphs
+- No walls of text
+
+**Section Spacing:**
+- Visual break (horizontal rule or extra space) between major sections
+- Consistent spacing throughout
+
+**Line Length:**
+- 50-75 characters per line is ideal
+- Avoid full-width text on large screens
+- Let the CMS/theme handle this, but be aware
+
+**Scannability Checklist:**
+- [ ] Can a reader understand the page by reading only headers?
+- [ ] Is there visual variety every 200-300 words?
+- [ ] Are paragraphs short enough to not intimidate?
+- [ ] Is there breathing room between sections?
+
+#### Mobile-First Formatting
+
+**Over 60% of traffic is mobile.** Format for small screens first.
+
+**Mobile Formatting Rules:**
+
+| Element | Desktop | Mobile Consideration |
+|---------|---------|---------------------|
+| Tables | Work fine | May need horizontal scroll or simplification |
+| Long headers | OK | May wrap awkwardly |
+| Wide images | OK | Must be responsive |
+| Code blocks | OK | May need horizontal scroll |
+| Deep nesting | OK | Gets cramped |
+
+**Mobile-Safe Practices:**
+- Tables with 2-3 columns max (or make them scrollable)
+- Headers under 60 characters
+- Images with responsive sizing
+- Short paragraphs (even shorter than desktop)
+- Touch-friendly link spacing
+
+#### Consistency Patterns
+
+**Pick a Style and Stick to It:**
+
+| Element | Pick One | Don't Mix |
+|---------|----------|-----------|
+| Header capitalization | Sentence case OR Title Case | Both in same article |
+| List punctuation | Periods OR no periods | Some with, some without |
+| Bold usage | Key terms OR first sentence | Random bolding |
+| Number format | "10" OR "ten" | Both for same range |
+
+**Content Patterns:**
+
+Establish patterns readers can recognize:
+
+```
+## Section Name
+[1-2 sentence intro]
+
+**Subsection 1**
+[Content]
+
+**Subsection 2**
+[Content]
+
+[Summary or transition to next section]
+```
+
+#### Formatting Audit Checklist
+
+Before publishing, verify:
+
+**Typography:**
+- [ ] No em dashes (—) in text
+- [ ] No curly quotes or apostrophes
+- [ ] Consistent quote style throughout
+
+**Lists:**
+- [ ] All multi-item sets are actual lists, not inline
+- [ ] Lists are parallel in structure
+- [ ] Numbered vs bulleted used appropriately
+
+**Tables:**
+- [ ] Headers are bold/clear
+- [ ] Columns are appropriate width
+- [ ] Mobile-friendly (3-4 columns max)
+
+**Headers:**
+- [ ] One H1 only
+- [ ] No skipped levels
+- [ ] Descriptive, not vague
+
+**Structure:**
+- [ ] Short paragraphs (2-4 sentences)
+- [ ] Visual breaks every 200-300 words
+- [ ] Consistent patterns throughout
+
+**Mobile:**
+- [ ] Tables work on mobile
+- [ ] Images are responsive
+- [ ] No horizontal scrolling needed for text
+
+---
+
 ## Response Guidelines
 
 1. **Be Specific**: Give exact recommendations, not vague advice
@@ -2497,6 +2754,7 @@ Briefs actually save time by reducing rewrites and edits.
 
 ## Changelog
 
+- **v3.3** (Jan 2026): Added Content Formatting & UI Presentation section - Typography rules (no em dashes), lists must be actual lists, table formatting, header hierarchy, whitespace/readability, mobile-first formatting, consistency patterns, formatting audit checklist
 - **v3.2** (Jan 2026): Added Content Excellence section - Writing craft (hooks, flow, voice, storytelling, transitions), External Linking Strategy, Multimedia Decision Framework (images vs video vs tools), Content Briefs & Planning. Removed redundant Content Refresh Schedule (consolidated into Content Production section)
 - **v3.1** (Jan 2026): Added Content Production at Scale section for Claude Code users - Content velocity strategy, Programmatic SEO guidance, Topical authority hub-and-spoke model, AI content guidelines, Content refresh strategy with data, Interactive tools & calculators, Production workflow with daily targets
 - **v3.0** (Jan 2026): Major knowledge base expansion - Added Featured Snippets optimization, CTR tactics, Link Building Playbook (7 proven tactics), Content Formats That Rank (8 types), Video SEO, Semantic SEO & Entities, User Signals & Engagement
