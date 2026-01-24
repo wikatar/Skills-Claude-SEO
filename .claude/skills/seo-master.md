@@ -1,6 +1,6 @@
 # SEO Master Skill
 
-> Version 2.0 | Last Updated: January 2026
+> Version 2.1 | Last Updated: January 2026
 
 A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies.
 
@@ -10,6 +10,7 @@ A comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing conten
 
 | Command | What It Does |
 |---------|--------------|
+| `/seo <url>` | **Master mode** - Full auto-diagnosis and action plan |
 | `/seo audit <url>` | Full SEO audit of a page |
 | `/seo optimize` | Optimize content for a keyword |
 | `/seo strategy` | Generate comprehensive SEO strategy |
@@ -44,6 +45,108 @@ This skill helps you:
 ---
 
 ## Modes
+
+### Master Mode: Full Analysis (`/seo <url>` or "Help me with SEO for [site]")
+
+**The autonomous mode.** Give it a URL and it figures out everything.
+
+This mode automatically:
+1. Diagnoses current state across all SEO dimensions
+2. Identifies the biggest problems and opportunities
+3. Creates a prioritized action plan
+4. Tells you exactly what to do first
+
+**When to use:** When you want a complete picture without guiding the analysis yourself.
+
+**Process:**
+
+```
+Step 1: DIAGNOSE
+├── Fetch and analyze the page/site
+├── Check traditional SEO elements
+├── Check AI SEO readiness
+├── Check technical fundamentals
+├── Identify if local SEO applies
+└── Assess E-E-A-T signals
+
+Step 2: IDENTIFY
+├── Score current state (0-100)
+├── Find critical issues (blocking growth)
+├── Find quick wins (high impact, low effort)
+├── Find strategic gaps (missing opportunities)
+└── Compare to what's needed to compete
+
+Step 3: PLAN
+├── Prioritize by impact × effort
+├── Create immediate actions (this week)
+├── Create 30-day roadmap
+├── Create 90-day roadmap
+└── Define success metrics
+```
+
+**Output Format:**
+
+```
+## SEO Master Analysis: [Site/Page]
+
+### Current State Score: [X/100]
+
+| Dimension | Score | Status |
+|-----------|-------|--------|
+| On-Page SEO | X/20 | 🔴/🟡/🟢 |
+| Technical SEO | X/20 | 🔴/🟡/🟢 |
+| Content Quality | X/20 | 🔴/🟡/🟢 |
+| AI SEO Readiness | X/20 | 🔴/🟡/🟢 |
+| Authority/E-E-A-T | X/20 | 🔴/🟡/🟢 |
+
+### Diagnosis Summary
+[2-3 sentence overview of the site's SEO health and main issues]
+
+### Critical Issues (Fix First)
+1. [Issue] → [Why it matters] → [How to fix]
+2. [Issue] → [Why it matters] → [How to fix]
+
+### Quick Wins (High Impact, Easy)
+1. [Action] → [Expected impact]
+2. [Action] → [Expected impact]
+
+### Strategic Gaps (Bigger Opportunities)
+1. [Gap] → [Opportunity size] → [Approach]
+
+### Action Plan
+
+**This Week:**
+- [ ] [Specific task 1]
+- [ ] [Specific task 2]
+- [ ] [Specific task 3]
+
+**Next 30 Days:**
+- [ ] [Task with brief description]
+- [ ] [Task with brief description]
+- [ ] [Task with brief description]
+
+**Next 90 Days:**
+- [ ] [Strategic initiative]
+- [ ] [Strategic initiative]
+
+### Success Metrics
+| Metric | Current | Target (90 days) |
+|--------|---------|------------------|
+| [Metric] | [Value] | [Goal] |
+
+### What I Need From You
+[Questions to clarify or information needed to refine the plan]
+```
+
+**Key Behaviors:**
+
+1. **Be autonomous** - Don't ask what to analyze. Analyze everything relevant.
+2. **Be specific** - Don't say "improve your titles." Say "Change title from X to Y."
+3. **Be prioritized** - Always rank by impact. Don't overwhelm with 50 equal tasks.
+4. **Be realistic** - Consider effort required. Quick wins first.
+5. **Ask at the end** - Only ask questions after providing the analysis, not before.
+
+---
 
 ### Mode 1: Page Audit (`/seo audit <url>`)
 
@@ -681,6 +784,12 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 
 ## Example Prompts
 
+**Master Mode (Full Analysis):**
+- "Help me with SEO for hpspelet.se"
+- "Analyze my site and tell me what to do: [URL]"
+- "Full SEO analysis of [URL]"
+- "What should I focus on for [URL]?"
+
 **Auditing:**
 - "Audit this page for SEO: [URL]"
 - "What's wrong with my site's SEO?"
@@ -716,6 +825,7 @@ Health, finance, legal, news, safety topics require STRONGER E-E-A-T signals. Co
 
 ## Changelog
 
+- **v2.1** (Jan 2026): Added Master Mode - autonomous full analysis with auto-diagnosis and action planning
 - **v2.0** (Jan 2026): Added Local SEO, E-E-A-T details, Technical checklist, Search intent, Competitor analysis, Image SEO, URL structure, AI crawler management, Scoring rubric, Version tracking
 - **v1.1** (Jan 2026): Added Prioritization mode, Cannibalization guidance
 - **v1.0** (Jan 2026): Initial release
