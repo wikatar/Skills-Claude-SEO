@@ -151,6 +151,73 @@ When generating strategy, gather information about:
    - Tools to use
    - Reporting cadence
 
+### Mode 4: Prioritization (`/seo prioritize` or "where do I start?")
+
+Help users decide what to work on first. This is critical for ROI.
+
+**The Core Question:** Should I fix weak pages or double down on strong pages?
+
+**Decision Framework:**
+
+#### Double Down on Best Pages FIRST when:
+- Pages ranking positions 4-20 (striking distance)
+- High impressions but low CTR
+- Best content is outdated (>6 months old)
+- Limited resources (focus beats spread)
+
+**Why:** Moving from position 8→3 = massive traffic jump. Content refresh can boost traffic 106%. AI search heavily favors recently updated authoritative content.
+
+**Impact:** HIGH and FAST (weeks)
+
+#### Fix/Remove Worst Pages FIRST when:
+- Thin content (<300 words with no value)
+- Duplicate/cannibalized pages competing for same keywords
+- Pages with 0 traffic for 12+ months
+- Site has quality drag from many low-value pages
+
+**Why:** Removes quality signals that hurt domain. Consolidates link equity. Google's Helpful Content Update penalizes sites with lots of low-quality pages.
+
+**Impact:** MEDIUM, slower (months)
+
+#### The 80/20 Rule
+Typically 20% of pages drive 80% of traffic. Identify and optimize those first.
+
+**Recommended Priority Order (most sites):**
+```
+1. Optimize existing top performers (quick wins)
+2. Create 1-2 high-value pillar pages for gaps
+3. Audit and consolidate/remove weak pages
+4. Build supporting content clusters
+5. Ongoing: refresh cycle every 3-6 months
+```
+
+**Output Format:**
+```
+## SEO Prioritization Analysis
+
+### Current State Assessment
+- [Site health summary]
+- [Top performing pages]
+- [Underperforming pages]
+
+### Recommended Priority
+1. [First priority with reasoning]
+2. [Second priority]
+3. [Third priority]
+
+### Quick Wins (This Week)
+- [Immediate high-impact action]
+- [Immediate high-impact action]
+
+### 30-Day Plan
+- [Week 1 focus]
+- [Week 2-3 focus]
+- [Week 4 focus]
+
+### Pages to Consolidate/Remove
+- [Page] → [Action: merge into X / delete / differentiate]
+```
+
 ## Knowledge Base
 
 ### Core Ranking Factors (2025)
@@ -223,6 +290,38 @@ When generating strategy, gather information about:
 - All cluster pages link to pillar
 - Fix orphan pages (pages with no internal links pointing to them)
 
+### Keyword Cannibalization
+
+**What it is:** Multiple pages competing for the same keyword, splitting signals.
+
+**Severity Levels:**
+
+| Type | Impact | Example |
+|------|--------|---------|
+| Mild | ~10-20% suboptimal | Two blog posts on similar topics |
+| Severe | 30-50% traffic loss | Product page + category page + blog all targeting same keyword |
+
+**When it's NOT a problem:**
+- Different intent (informational vs transactional)
+- Pages rank for different long-tail variations
+- One page clearly dominates
+
+**When it IS a problem:**
+- Google shows different pages for same query (volatility)
+- Neither page ranks well
+- Pages are nearly identical in focus
+
+**Fixes:**
+
+| Strategy | When to Use |
+|----------|-------------|
+| **301 Redirect** | Merge weaker page into stronger one |
+| **Differentiate** | Rewrite one to target different keyword/intent |
+| **Canonical Tag** | Point duplicate to preferred version |
+| **Delete** | Page has zero value, remove entirely |
+
+**Detection:** Search `site:yourdomain.com "keyword"` - if multiple pages appear, investigate.
+
 ### Content Refresh Schedule
 
 | Content Type | Frequency |
@@ -266,3 +365,7 @@ When generating strategy, gather information about:
 - "How should I structure my content for AI search engines?"
 - "What schema markup should I add to my product pages?"
 - "Help me create a content cluster around 'email marketing'"
+- "Where should I start with SEO on my site?"
+- "Should I fix my worst pages or improve my best ones?"
+- "Do I have keyword cannibalization issues?"
+- "Help me prioritize my SEO tasks for maximum impact"
