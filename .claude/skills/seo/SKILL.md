@@ -1,3 +1,8 @@
+---
+name: seo
+description: Comprehensive SEO and AI SEO (GEO) skill for auditing pages, optimizing content, and generating strategies. Use when user asks for SEO audits, keyword optimization, SEO strategy, technical SEO checks, or local SEO optimization.
+---
+
 # SEO Master Skill
 
 > Version 3.3 | Last Updated: January 2026
